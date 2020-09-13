@@ -1,24 +1,47 @@
 import React from 'react';
-import logo from './logo.svg';
+import Navbar from './components/landing/MyNavbar';
+import Carousel from './components/landing/MyCarousel';
+import Container from "react-bootstrap/Container";
+import Fade from "react-reveal";
+import { Parallax } from "react-parallax";
+import About from './components/about/About';
+import Slide from "react-reveal/Slide";
+import Skills from './components/skills/Skills';
+
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ position: "relative" }}>
+      <Carousel />
+      <Navbar />
+          <div>
+            
+          <Parallax
+            blur={{ min: -30, max: 30 }}
+            bgImage={require("./assets/img/parallex/background.webp")}
+            bgImageAlt=""
+            strength={-200}
+          >
+            <div>
+            <Container className="container-box rounded">
+                <Fade duration={500}>
+                <About />
+                </Fade>
+            </Container>
+          </div>
+          </Parallax>
+          </div>
+
+          <div>
+              <Container className="container-box rounded">
+                <Slide bottom duration={500}>
+                  <hr />
+                  <Skills />
+                </Slide>
+              </Container>
+          </div>
     </div>
   );
 }
