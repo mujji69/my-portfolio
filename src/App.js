@@ -3,11 +3,15 @@ import Navbar from './components/landing/MyNavbar';
 import Carousel from './components/landing/MyCarousel';
 import Container from "react-bootstrap/Container";
 import Fade from "react-reveal";
+
 import { Parallax } from "react-parallax";
 import About from './components/about/About';
-import Slide from "react-reveal/Slide";
-import Skills from './components/skills/Skills';
 
+import Zoom from "react-reveal/Zoom";
+
+import Skills from './components/skills/Skills';
+import Projects from './components/projects/Projects';
+import Footer from './components/footer/Footer';
 
 import './App.css';
 
@@ -36,12 +40,24 @@ function App() {
 
           <div>
               <Container className="container-box rounded">
-                <Slide bottom duration={500}>
+                
+                <Zoom duration={500}>
                   <hr />
                   <Skills />
-                </Slide>
+                </Zoom>
+              
               </Container>
           </div>
+          <div>
+            <Container className="container-box rounded">
+              <Fade duration={500}>
+                <hr />
+                <Projects />
+              </Fade>
+            </Container>
+      
+            <Footer />
+      </div>
     </div>
   );
 }

@@ -8,7 +8,6 @@ import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import L_MYSQL from "../../assets/img/skills/mysql.svg";
 import L_ORACLE from "../../assets/img/skills/oracle.svg";
 import L_MONGO from "../../assets/img/skills/mongodb.svg";
-import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_PHP from "../../assets/img/skills/php.svg";
 import L_CPLUS from "../../assets/img/skills/c++.png";
 import L_C from "../../assets/img/skills/c.webp";
