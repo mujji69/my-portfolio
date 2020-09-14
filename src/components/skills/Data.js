@@ -30,7 +30,7 @@ export const skills = {
       skillName: "HTML5",
     },
     {
-      link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
+      link:"https://developer.mozilla.org/en-US/docs/Archive/CSS3",
       imgAltText: "CSS 3",
       imgSrc: L_CSS3,
       skillName: "CSS3",
@@ -71,7 +71,7 @@ export const skills = {
       skillName: "JavaScript",
     },
     {
-      link: "https://www.typescriptlang.org/",
+      link: "https://www.php.net/",
       imgAltText: "PHP",
       imgSrc: L_PHP,
       skillName: "PHP",
@@ -83,19 +83,19 @@ export const skills = {
       skillName: "Python",
     },
     {
-      link: "https://golang.org/",
+      link: "https://en.wikipedia.org/wiki/Java_(programming_language)",
       imgAltText: "JAVA",
       imgSrc: L_JAVA,
       skillName: "JAVA",
     },
     {
-        link: "https://golang.org/",
+        link: "https://en.wikipedia.org/wiki/C%2B%2B",
         imgAltText: "C++",
         imgSrc: L_CPLUS,
         skillName: "C++",
     },
     {
-        link: "https://golang.org/",
+        link: "https://en.wikipedia.org/wiki/C_(programming_language)",
         imgAltText: "C",
         imgSrc: L_C,
         skillName: "C",
@@ -104,19 +104,19 @@ export const skills = {
   databases: [
     
     {
-      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
+      link: "https://www.mysql.com/",
       imgAltText: "MySQL",
       imgSrc: L_MYSQL,
       skillName: "MySQL",
     },
     {
-        link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
+        link: "https://www.oracle.com/database/",
         imgAltText: "ORACLE Database",
         imgSrc: L_ORACLE,
         skillName: "Oracle Database",
     },
     {
-        link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
+        link: "https://www.mongodb.com/",
         imgAltText: "MONGODB",
         imgSrc: L_MONGO,
         skillName: "MongoDB",
@@ -130,7 +130,7 @@ export const skills = {
   ],
   framework: [
     {
-      link: "https://git-scm.com/",
+      link: "https://laravel.com/",
       imgAltText: "Laravel",
       imgSrc: L_LARAVEL,
       skillName: "Laravel",

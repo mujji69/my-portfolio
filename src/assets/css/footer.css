@@ -4,7 +4,7 @@
     font-size: 1.5em;
     border: 2px solid #101018f8;
     border-top-left-radius: 3px;
-    
+
 
 
 }
@@ -12,4 +12,6 @@
     padding-top:50px;
     padding-bottom:50px
 }
-    
+.z{
+    z-index: 9999;
+}

@@ -25,7 +25,7 @@ import "../../assets/css/projects.css";
 const Projects = () => {
   return (
     <div id="projects">
-      <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
+      <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Jumbotron className="jumbo-style">
         <Container>
           <Tilt options={{ max: 25 }}>
@@ -115,7 +115,7 @@ const Projects = () => {
               <Card.Body className>
                 
                 <div>
-                  <Card.Text className=" style">
+                  <div className=" style">
                     <strong className=''>Description:</strong>
                     <p>
                         Stadium is a place where people get together to watch their favorite sports.
@@ -141,7 +141,7 @@ const Projects = () => {
 
                     </div>
 
-                  </Card.Text>
+                  </div>
                 </div>
               </Card.Body>
             </Card>
